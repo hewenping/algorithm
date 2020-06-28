@@ -20,6 +20,7 @@ public class NewWindow {
                 sum -= nums[lo++];
             }
         }
+        //返回长度
         return min == Integer.MAX_VALUE ? 0 : min;
     }
 
